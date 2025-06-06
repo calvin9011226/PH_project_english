@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title data-langkey="title_car_rent"></title>
+  <style>
+    /* 全頁滿版 */
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* 主容器 */
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      flex-shrink: 0;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    h1, h2 {
+      margin: 0;
+    }
+    .title {
+      margin: 20px 0;
+    }
+    iframe {
+      width: 90%;
+      height: 80%;
+      border: none;
+    }
+    /* 語系下拉 */
+    #langSelect {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const lang = urlParams.get("lang") || "zh";
+  window.currentLang = lang;
+
+  function applyTranslations() {
+    document.querySelectorAll("[data-langkey]").forEach(el => {
+      const key = el.getAttribute("data-langkey");
+      if (window.i18nText && window.i18nText[`${key}_${lang}`]) {
+        el.innerText = window.i18nText[`${key}_${lang}`];
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    // 語系切換下拉
+    document.getElementById("langSelect").value = lang;
+
+    document.getElementById("langSelect").addEventListener("change", function () {
+      const u = new URL(location.href);
+      u.searchParams.set("lang", this.value);
+      location.href = u.toString(); // reload with new lang
+    });
+
+    // 替換文字
+    applyTranslations();
+
+    // 替換 iframe 地圖語系
+    const mapFrame = document.getElementById("mapFrame");
+    mapFrame.src = mapFrame.src.replace(/hl=\w+-?\w*/i, `hl=${lang === "zh" ? "zh-TW" : "en"}`);
+  });
+</script>
+
+<body>
+  <div id="app">
+    <header>
+      <h1 data-langkey="basis_welcome"></h1>
+      <label for="langSelect" data-langkey="basis_language_label"></label>
+      <select id="langSelect">
+        <option value="zh" selected>繁體中文</option>
+        <option value="en" >English</option>
+      </select>
+    </header>
+    <main>
+      <h2 class="title" data-langkey="info_map_title"></h2>
+      <iframe id="mapFrame" src="https://www.google.com/maps/d/embed?mid=1VM4E-1i6xw-5dBqIHUAkL8q8pLMLllM&ehbc=2E312F&hl=zh-TW"></iframe>
+    </main>
+    <footer>
+      <p>© PSRS.</p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='Language_loader.js') }}"></script>
+</body>
+</html>
+

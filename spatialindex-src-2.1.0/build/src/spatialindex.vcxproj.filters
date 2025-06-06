@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\BoundsQuery.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CountVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CustomStorage.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\DataStream.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Error.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\IdVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Index.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\LeafQuery.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\ObjVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\sidx_api.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Utility.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Ball.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\LineSegment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\MovingPoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\MovingRegion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Point.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Region.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\SpatialIndexImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\TimePoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\TimeRegion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Leaf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\MVRTree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\BulkLoader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Leaf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\RTree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\Buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\DiskStorageManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\MemoryStorageManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\RandomEvictionsBuffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tools\rand48.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tools\Tools.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Leaf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\TPRTree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\LineSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\MovingPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\MVRTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\RTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\SpatialIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TimePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TimeRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TPRTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\BoundsQuery.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\CountVisitor.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\CustomStorage.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\DataStream.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Error.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\IdVisitor.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Index.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\LeafQuery.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\ObjVisitor.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_api.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_config.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_impl.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Utility.h">
+      <Filter>C API Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Leaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\MVRTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\PointerPoolNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\BulkLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Leaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\PointerPoolNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\RTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\DiskStorageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\MemoryStorageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\RandomEvictionsBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Leaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\PointerPoolNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\TPRTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\CMakeLists.txt">
+      <Filter>CMake Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="C API Header Files">
+      <UniqueIdentifier>{1735916E-106A-3E85-9908-CE1504D21E14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C API Source Files">
+      <UniqueIdentifier>{2E0920D0-6CE0-342A-B46C-D71593FEEBF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Files">
+      <UniqueIdentifier>{E1F84697-E0E2-3ADC-A86E-2C12F0CEED56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3E7B8147-0088-37F1-8A1F-E1AA16017435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{33CE16C1-CE3A-3CAE-9816-01E3F207D209}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+2025-04-08 14:41:12,387 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-08 14:41:12,585 - INFO - [Data Time]  收集資料&修改資料 : 0.2085548000000017ms
+2025-04-08 14:41:12,585 - INFO - [Data Size]  收集資料&修改資料 : 2
+2025-04-08 14:41:33,755 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-08 14:41:33,928 - INFO - [Data Time]  24 : 0.1879057999999958ms
+2025-04-08 14:41:33,928 - INFO - [Data Size]  24 : 4
+2025-04-08 14:41:35,883 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-08 14:41:36,076 - INFO - [Data Time]  男 : 0.19877139999999827ms
+2025-04-08 14:41:36,076 - INFO - [Data Size]  男 : 3
+2025-04-08 14:41:39,270 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-08 14:41:39,437 - INFO - [Data Size] [unknown]  reply_message <location寫入失敗> 	回傳大小 : 112
+2025-04-08 14:41:51,834 - INFO - [Data Size] [json_dict]  reply_message <景點推薦> 	回傳大小 : 391
+2025-04-08 14:41:52,091 - INFO - [Data Time]  景點推薦 : 0.2659372999999903ms
+2025-04-08 14:41:52,091 - INFO - [Data Size]  景點推薦 : 3
+2025-04-08 14:41:53,961 - INFO - [Data Size] [text] event : 252
+2025-04-08 14:42:02,144 - INFO - [Data Size] [json_dict]  reply_message <行程規劃> 	回傳大小 : 1690
+2025-04-08 14:42:02,276 - INFO - [Data Time]  行程規劃 : 0.1459116999999992ms
+2025-04-08 14:42:02,291 - INFO - [Data Size]  行程規劃 : 4
+2025-04-08 14:42:23,521 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict

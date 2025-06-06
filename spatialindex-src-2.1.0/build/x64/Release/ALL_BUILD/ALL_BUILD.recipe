@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\gtest.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\gtest_main.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\spatialindex-64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\spatialindex_c-64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\libsidxtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-geometry-Intersection.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-mvrtree-Exhaustive.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-mvrtree-Generator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-mvrtree-MVRTreeLoad.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-mvrtree-MVRTreeQuery.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-rtree-Exhaustive.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-rtree-Generator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-rtree-RTreeBulkLoad.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-rtree-RTreeLoad.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-rtree-RTreeQuery.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-tools-TemporaryFile.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-tprtree-Exhaustive.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-tprtree-Generator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-tprtree-TPRTreeLoad.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\test\Release\test-tprtree-TPRTreeQuery.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

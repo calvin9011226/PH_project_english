@@ -1,0 +1,19 @@
+2025-03-29 15:11:08,632 - INFO - [Data Size] [json]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-03-29 15:11:39,434 - INFO - [Data Size] [json]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-03-29 15:11:44,983 - INFO - [Data Size] [json]  reply_message <性別設定> 	回傳大小 : 993
+2025-03-29 15:11:48,981 - INFO - [Data Size] [json]  reply_message <寫入location> 	回傳大小 : 211
+2025-03-29 15:11:57,681 - INFO - [Data Size] [json]  reply_message <景點推薦> 	回傳大小 : 391
+2025-03-29 15:12:01,948 - INFO - [Data Size] [text] event : 237
+2025-03-29 15:12:45,016 - INFO - [Data Size] [json]  reply_message <行程規劃> 	回傳大小 : 1690
+2025-03-29 15:12:57,999 - INFO - [Data Size] [json]  push_message  <路線選項說明> 	回傳大小 : 2014
+2025-03-29 15:13:02,149 - INFO - [Data Size] [json]  reply_message <系統與使用者路線功能> 	回傳大小 : 121
+2025-03-29 15:13:05,973 - INFO - [Data Size] [json]  reply_message <系統與使用者路線功能> 	回傳大小 : 121
+2025-03-29 15:13:16,337 - INFO - [Data Size] [json]  reply_message <景點人潮> 	回傳大小 : 257
+2025-03-29 15:13:25,376 - INFO - [Data Size] [json]  reply_message <附近搜尋> 	回傳大小 : 2294
+2025-03-29 15:13:28,148 - INFO - [Data Size] [json]  reply_message <風景區> 	回傳大小 : 105
+2025-03-29 15:13:52,065 - INFO - [Data Size] [json]  reply_message <風景區> 	回傳大小 : 105
+2025-03-29 15:14:05,759 - INFO - [Data Size] [json]  reply_message <餐廳> 	回傳大小 : 20691
+2025-03-29 15:14:18,385 - INFO - [Data Size] [json]  reply_message <停車場> 	回傳大小 : 22912
+2025-03-29 15:14:23,495 - INFO - [Data Size] [json]  reply_message <住宿> 	回傳大小 : 10519
+2025-03-29 15:14:29,436 - INFO - [Data Size] [json]  reply_message <租車> 	回傳大小 : 216
+2025-03-29 15:15:09,511 - INFO - [Data Size] [json]  reply_message <風景區> 	回傳大小 : 9465

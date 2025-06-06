@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtualenv
+venv/
+venv38/
+.env
+
+# VSCode / Dev tools
+.vscode/
+.vs/
+
+# Binary & Machine Learning model files
+*.pkl
+*.whl
+*.sql
+
+
+# Mac / Windows
+.DS_Store
+Thumbs.db

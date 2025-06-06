@@ -1,0 +1,23 @@
+2025-03-26 14:24:51,051 - INFO - [Data Size] [json_dict] event : 533
+2025-03-26 14:24:51,051 - INFO - [Data Time]  event : 0.0009838000000002012ms
+2025-03-26 14:24:59,385 - INFO - [Data Size] [json_dict] event : 546
+2025-03-26 14:24:59,385 - INFO - [Data Time]  event : 0.001745499999998401ms
+2025-03-26 14:25:06,828 - INFO - [Data Size] [json_dict] event : 546
+2025-03-26 14:25:06,828 - INFO - [Data Time]  event : 0.0012121000000000492ms
+2025-03-26 14:25:11,916 - INFO - [Data Size] [json_dict] event : 546
+2025-03-26 14:25:11,916 - INFO - [Data Time]  event : 0.0006868000000004315ms
+2025-03-26 14:25:18,252 - INFO - [Data Size] [json_dict] event : 546
+2025-03-26 14:25:18,252 - INFO - [Data Time]  event : 0.0009370999999944729ms
+2025-03-26 14:25:23,631 - INFO - [Data Size] [json_dict] event : 523
+2025-03-26 14:25:23,631 - INFO - [Data Time]  event : 0.0014834999999990828ms
+2025-03-26 14:25:25,446 - INFO - [Data Size] [json_dict] event : 314
+2025-03-26 14:25:25,446 - INFO - [Data Time]  event : 0.0009247000000058847ms
+2025-03-26 14:25:25,515 - INFO - [Data Size] [json_dict] event : 524
+2025-03-26 14:25:25,515 - INFO - [Data Time]  event : 0.0009310000000013474ms
+2025-03-26 14:25:30,680 - INFO - [Data Size] [json_dict] event : 450
+2025-03-26 14:25:30,680 - INFO - [Data Time]  event : 0.00109960000000342ms
+2025-03-26 14:26:00,640 - INFO - [Data Size] [json_dict] event : 533
+2025-03-26 14:26:00,640 - INFO - [Data Time]  event : 0.001927200000011453ms
+2025-03-26 14:26:04,371 - INFO - [Data Size] [json_dict] event : 533
+2025-03-26 14:26:04,371 - INFO - [Data Time]  event : 0.001526900000001774ms
+2025-03-26 14:26:04,402 - INFO - [Data Size] [text] event : 252

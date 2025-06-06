@@ -1,0 +1,32 @@
+﻿2025-06-07 01:26:58,229 - INFO - [CPU (mean)]  Data Collection : 7.7%  
+CPU During : [7.7] FPS=5
+2025-06-07 01:26:58,229 - INFO - [Memory]  Data Collection : 34.468MB 
+Memory During : [36142284.8] FPS=5
+2025-06-07 01:27:01,755 - INFO - [CPU (mean)]  Age : 42.8%  
+CPU During : [42.8] FPS=5
+2025-06-07 01:27:01,755 - INFO - [Memory]  Age : 34.501MB 
+Memory During : [36176691.2] FPS=5
+2025-06-07 01:27:03,744 - INFO - [CPU (mean)]  Woman : 7.7%  
+CPU During : [7.7] FPS=5
+2025-06-07 01:27:03,744 - INFO - [Memory]  Woman : 34.509MB 
+Memory During : [36184883.2] FPS=5
+2025-06-07 01:27:06,163 - INFO - [CPU (mean)]  location : 46.2%  
+CPU During : [46.2] FPS=5
+2025-06-07 01:27:06,163 - INFO - [Memory]  location : 34.515MB 
+Memory During : [36191436.8] FPS=5
+2025-06-07 01:27:08,760 - INFO - [CPU (mean)]  Itinerary Planning : 0.0%  
+CPU During : [0.0] FPS=5
+2025-06-07 01:27:08,760 - INFO - [Memory]  Itinerary Planning : 34.544MB 
+Memory During : [36221747.2] FPS=5
+2025-06-07 01:27:17,142 - INFO - [CPU (mean)]  2 Days 1 Night : 414.559%  
+CPU During : [1747.2, 1861.2, 1870.4, 1924.3, 1647.2, 1878.1, 834.8, 15.4, 0.0, 0.0, 0.0, 8.3, 38.5, 7.1, 7.7, 0.0, 0.0, 46.2, 7.7, 7.7, 0.0, 0.0, 35.7, 23.1, 7.7, 0.0, 0.0, 7.7, 46.2] FPS=5
+2025-06-07 01:27:17,143 - INFO - [Memory]  2 Days 1 Night : 1090.313MB 
+Memory During : [36639539.2, 36959846.4, 37409587.2, 42129817.6, 53084979.2, 37860966.4, 38057574.4, 38080512.0, 38240256.0, 38240256.0, 38240256.0, 38799769.6, 38799769.6, 38799769.6, 38818611.2, 38818611.2, 39009484.8, 39170048.0, 39170048.0, 39189708.8, 39189708.8, 39189708.8, 39864729.6, 39864729.6, 39887667.2, 39887667.2, 39890944.0, 39990886.4, 39990886.4] FPS=5
+2025-06-07 01:27:21,957 - INFO - [CPU (mean)]  SystemRoutePlanning : 7.2%  
+CPU During : [7.2] FPS=5
+2025-06-07 01:27:21,957 - INFO - [Memory]  SystemRoutePlanning : 38.134MB 
+Memory During : [39985971.2] FPS=5
+2025-06-07 01:27:38,431 - INFO - [CPU (mean)]  UserRoutePlanning : 7.7%  
+CPU During : [15.4, 0.0] FPS=5
+2025-06-07 01:27:38,431 - INFO - [Memory]  UserRoutePlanning : 76.333MB 
+Memory During : [40020377.6, 40020377.6] FPS=5

@@ -1,0 +1,56 @@
+2025-04-09 15:47:03,477 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-09 15:47:03,650 - INFO - [Data Time]  收集資料&修改資料 : 0.1724988999999999s
+2025-04-09 15:47:03,650 - INFO - [Data Size]  收集資料&修改資料 : 70
+2025-04-09 15:47:18,908 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-09 15:47:19,072 - INFO - [Data Time]  24 : 0.16479089999999985s
+2025-04-09 15:47:19,072 - INFO - [Data Size]  24 : 1229
+2025-04-09 15:47:20,144 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-09 15:47:20,300 - INFO - [Data Time]  女 : 0.15796029999999917s
+2025-04-09 15:47:20,301 - INFO - [Data Size]  女 : 993
+2025-04-09 15:47:23,097 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-09 15:47:23,252 - INFO - [Data Time]  location : Nones
+2025-04-09 15:47:23,252 - INFO - [Data Size]  location : 211
+2025-04-09 15:47:25,832 - INFO - [Data Size] [json_dict]  reply_message <景點推薦> 	回傳大小 : 391
+2025-04-09 15:47:25,967 - INFO - [Data Time]  景點推薦 : 0.1350952999999997s
+2025-04-09 15:47:25,968 - INFO - [Data Size]  景點推薦 : 391
+2025-04-09 15:47:27,668 - INFO - [Data Size] [text] event : 237
+2025-04-09 15:47:29,171 - INFO - [Data Time]  永續觀光 : 1.5349357999999995s
+2025-04-09 15:47:29,171 - INFO - [Data Size]  永續觀光 : 999
+2025-04-09 15:47:32,278 - INFO - [Data Time]  一般景點推薦 : 0.8177392000000054s
+2025-04-09 15:47:32,279 - INFO - [Data Size]  一般景點推薦 : 1044
+2025-04-09 15:47:36,959 - INFO - [Data Size] [json_dict]  reply_message <行程規劃> 	回傳大小 : 1690
+2025-04-09 15:47:37,166 - INFO - [Data Time]  行程規劃 : 0.20844060000000297s
+2025-04-09 15:47:37,167 - INFO - [Data Size]  行程規劃 : 1690
+2025-04-09 15:47:46,928 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 15:47:47,143 - INFO - [Data Time]  兩天一夜 : 8.238768799999995s
+2025-04-09 15:47:47,143 - INFO - [Data Size]  兩天一夜 : 2014
+2025-04-09 15:48:07,139 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 15:48:07,378 - INFO - [Data Time]  三天兩夜 : 17.0906182s
+2025-04-09 15:48:07,379 - INFO - [Data Size]  三天兩夜 : 2014
+2025-04-09 15:48:19,687 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 15:48:19,984 - INFO - [Data Time]  四天三夜 : 6.694954999999993s
+2025-04-09 15:48:19,985 - INFO - [Data Size]  四天三夜 : 2014
+2025-04-09 15:48:33,563 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 15:48:33,762 - INFO - [Data Time]  五天四夜 : 11.1575749s
+2025-04-09 15:48:33,763 - INFO - [Data Size]  五天四夜 : 2014
+2025-04-09 15:48:38,268 - INFO - [Data Size] [json_dict]  reply_message <景點人潮> 	回傳大小 : 258
+2025-04-09 15:48:38,432 - INFO - [Data Time]  景點人潮 : 0.1636391000000117s
+2025-04-09 15:48:38,432 - INFO - [Data Size]  景點人潮 : 258
+2025-04-09 15:48:40,250 - INFO - [Data Size] [unknown]  reply_message <附近搜尋> 	回傳大小 : 2294
+2025-04-09 15:48:40,441 - INFO - [Data Time]  附近搜尋 : 0.19182929999999487s
+2025-04-09 15:48:40,441 - INFO - [Data Size]  附近搜尋 : 2294
+2025-04-09 15:48:43,023 - INFO - [Data Size] [unknown]  reply_message <風景區> 	回傳大小 : 9465
+2025-04-09 15:48:43,187 - INFO - [Data Time]  風景區 : 1.4420513000000028s
+2025-04-09 15:48:43,187 - INFO - [Data Size]  風景區 : 9465
+2025-04-09 15:48:47,559 - INFO - [Data Size] [unknown]  reply_message <餐廳> 	回傳大小 : 13152
+2025-04-09 15:48:47,714 - INFO - [Data Time]  餐廳 : 1.8525405999999975s
+2025-04-09 15:48:47,715 - INFO - [Data Size]  餐廳 : 13152
+2025-04-09 15:48:54,057 - INFO - [Data Size] [unknown]  reply_message <停車場> 	回傳大小 : 22462
+2025-04-09 15:48:54,256 - INFO - [Data Time]  停車場 : 4.2625474000000025s
+2025-04-09 15:48:54,257 - INFO - [Data Size]  停車場 : 22462
+2025-04-09 15:48:57,643 - INFO - [Data Size] [unknown]  reply_message <住宿> 	回傳大小 : 10842
+2025-04-09 15:48:58,058 - INFO - [Data Time]  住宿 : 2.0231457000000006s
+2025-04-09 15:48:58,059 - INFO - [Data Size]  住宿 : 10842
+2025-04-09 15:49:03,831 - INFO - [Data Size] [json_dict]  reply_message <租車> 	回傳大小 : 217
+2025-04-09 15:49:04,012 - INFO - [Data Time]  租車 : 0.18200749999999744s
+2025-04-09 15:49:04,012 - INFO - [Data Size]  租車 : 217

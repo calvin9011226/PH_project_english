@@ -1,0 +1,100 @@
+{
+  "routeplan_sidebar_title_zh": "景點列表",
+  "routeplan_sidebar_title_en": "Place List",
+
+  "routeplan_filter_all_zh": "顯示全部人潮",
+  "routeplan_filter_all_en": "Show All Crowds",
+
+  "routeplan_filter_low_zh": "僅顯示人潮：低",
+  "routeplan_filter_low_en": "Only Show Crowd: Low",
+
+  "routeplan_filter_medium_zh": "僅顯示人潮：中",
+  "routeplan_filter_medium_en": "Only Show Crowd: Medium",
+
+  "routeplan_filter_high_zh": "僅顯示人潮：高",
+  "routeplan_filter_high_en": "Only Show Crowd: High",
+
+  "routeplan_low_zh": "低",
+  "routeplan_low_en": "Low",
+
+  "routeplan_medium_zh": "中",
+  "routeplan_medium_en": "Medium",
+
+  "routeplan_high_zh": "高",
+  "routeplan_high_en": "High",
+
+  "routeplan_route_system_zh": "系統路線",
+  "routeplan_route_system_en": "System Route",
+
+  "routeplan_route_people_zh": "使用者路線",
+  "routeplan_route_people_en": "User Route",
+
+  "routeplan_btn_toggle_marker_zh": "顯示／隱藏景點",
+  "routeplan_btn_toggle_marker_en": "Show/Hide Places",
+
+  "routeplan_btn_reset_selection_zh": "重設選擇",
+  "routeplan_btn_reset_selection_en": "Reset Selection",
+
+  "routeplan_btn_route_once_zh": "一次性規劃",
+  "routeplan_btn_route_once_en": "Plan All at Once",
+
+  "routeplan_btn_route_step_zh": "分段規劃",
+  "routeplan_btn_route_step_en": "Plan Step-by-Step",
+
+  "routeplan_btn_next_step_zh": "下一步",
+  "routeplan_btn_next_step_en": "Next Step",
+
+  "routeplan_btn_clear_route_zh": "清除路線",
+  "routeplan_btn_clear_route_en": "Clear Route",
+
+  "routeplan_btn_add_route_zh": "加入路線",
+  "routeplan_btn_add_route_en": "Add to route",
+
+  "routeplan_btn_added_route_zh": "已加入路線",
+  "routeplan_btn_added_route_en": "Added to route",
+
+  "routeplan_msg_no_places_zh": "沒有景點可規劃",
+  "routeplan_msg_no_places_en": "No places to route",
+
+  "routeplan_msg_route_done_zh": "路線規劃完成",
+  "routeplan_msg_route_done_en": "Routing complete",
+  
+  "routeplan_select_at_least_one_zh": "請至少選擇1個景點！",
+  "routeplan_select_at_least_one_en": "Please select at least 1 place!",
+  
+  "routeplan_already_in_route_zh": "此景點已加入規劃路線！",
+  "routeplan_already_in_route_en": "This place is already in your route!",
+
+  "routeplan_msg_plan_fail_zh": "規劃失敗",
+  "routeplan_msg_plan_fail_en": "Route failed",
+
+  "routeplan_map_your_location_zh": "您的位置",
+  "routeplan_map_your_location_en": "Your Location",
+
+  "routeplan_popup_rating_zh": "評分 :",
+  "routeplan_popup_rating_en": "Rating :",
+
+  "routeplan_popup_crowd_zh": "人潮 ",
+  "routeplan_popup_crowd_en": "Crowd ",
+
+  "routeplan_popup_opening_zh": "營業時間",
+  "routeplan_popup_opening_en": "Opening Hours",
+
+  "routeplan_popup_no_info_zh": "查無相關資訊",
+  "routeplan_popup_no_info_en": "No info found",
+
+  "routeplan_distance_prefix_zh": "本段距離：",
+  "routeplan_distance_prefix_en": "Segment Distance: ",
+
+  "routeplan_walking_label_zh": "，步行：",
+  "routeplan_walking_label_en": ", Walk: ",
+
+  "routeplan_biking_label_zh": "，騎車：",
+  "routeplan_biking_label_en": ", Bike: ",
+
+  "routeplan_driving_label_zh": "，開車：",
+  "routeplan_driving_label_en": ", Drive: ",
+
+  "routeplan_next_zh": "(下一站)",
+  "routeplan_next_en": "(next)"
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\test\gtest\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\test\gtest\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\test\gtest\sidx_api_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\test\gtest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3E7B8147-0088-37F1-8A1F-E1AA16017435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{33CE16C1-CE3A-3CAE-9816-01E3F207D209}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,68 @@
+2025-04-09 14:57:55,432 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-09 14:57:55,623 - INFO - [Data Time]  收集資料&修改資料 : 0.1915659000000005s
+2025-04-09 14:57:55,623 - INFO - [Data Size]  收集資料&修改資料 : 70
+2025-04-09 14:58:02,168 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-09 14:58:02,372 - INFO - [Data Time]  24 : 0.20432409999997958s
+2025-04-09 14:58:02,372 - INFO - [Data Size]  24 : 1229
+2025-04-09 14:58:04,042 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-09 14:58:04,250 - INFO - [Data Time]  女 : 0.20947189999998272s
+2025-04-09 14:58:04,253 - INFO - [Data Size]  女 : 993
+2025-04-09 14:58:09,914 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-09 14:58:10,179 - INFO - [Data Time]  location : Nones
+2025-04-09 14:58:10,179 - INFO - [Data Size]  location : 211
+2025-04-09 14:58:13,203 - INFO - [Data Size] [json_dict]  reply_message <景點推薦> 	回傳大小 : 391
+2025-04-09 14:58:13,364 - INFO - [Data Time]  景點推薦 : 0.1621389000000022s
+2025-04-09 14:58:13,365 - INFO - [Data Size]  景點推薦 : 391
+2025-04-09 14:58:14,812 - INFO - [Data Size] [text] event : 252
+2025-04-09 14:58:16,535 - INFO - [Data Time]  永續觀光 : 1.754676900000021s
+2025-04-09 14:58:16,536 - INFO - [Data Size]  永續觀光 : 1029
+2025-04-09 14:58:21,516 - INFO - [Data Time]  一般景點推薦 : 0.8866760000000227s
+2025-04-09 14:58:21,517 - INFO - [Data Size]  一般景點推薦 : 1074
+2025-04-09 14:58:26,075 - INFO - [Data Size] [json_dict]  reply_message <行程規劃> 	回傳大小 : 1690
+2025-04-09 14:58:26,246 - INFO - [Data Time]  行程規劃 : 0.17293569999998226s
+2025-04-09 14:58:26,247 - INFO - [Data Size]  行程規劃 : 1690
+2025-04-09 14:58:35,793 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 14:58:35,974 - INFO - [Data Time]  兩天一夜 : 7.901830799999999s
+2025-04-09 14:58:35,975 - INFO - [Data Size]  兩天一夜 : 2014
+2025-04-09 14:58:56,847 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 14:58:57,066 - INFO - [Data Time]  三天兩夜 : 17.607095799999996s
+2025-04-09 14:58:57,066 - INFO - [Data Size]  三天兩夜 : 2014
+2025-04-09 14:59:07,433 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 14:59:07,614 - INFO - [Data Time]  四天三夜 : 6.511371700000012s
+2025-04-09 14:59:07,614 - INFO - [Data Size]  四天三夜 : 2014
+2025-04-09 14:59:27,539 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-09 14:59:27,734 - INFO - [Data Time]  五天四夜 : 10.0108381s
+2025-04-09 14:59:27,735 - INFO - [Data Size]  五天四夜 : 2014
+2025-04-09 14:59:31,731 - INFO - [Data Size] [json_dict]  reply_message <景點人潮> 	回傳大小 : 258
+2025-04-09 14:59:31,914 - INFO - [Data Time]  景點人潮 : 0.18373719999999594s
+2025-04-09 14:59:31,914 - INFO - [Data Size]  景點人潮 : 258
+2025-04-09 14:59:34,067 - INFO - [Data Size] [unknown]  reply_message <附近搜尋> 	回傳大小 : 2294
+2025-04-09 14:59:34,248 - INFO - [Data Time]  附近搜尋 : 0.18281089999999267s
+2025-04-09 14:59:34,249 - INFO - [Data Size]  附近搜尋 : 2294
+2025-04-09 14:59:37,582 - INFO - [Data Size] [unknown]  reply_message <風景區> 	回傳大小 : 9465
+2025-04-09 14:59:37,905 - INFO - [Data Time]  風景區 : 1.7503990000000158s
+2025-04-09 14:59:37,906 - INFO - [Data Size]  風景區 : 9465
+2025-04-09 14:59:45,096 - INFO - [Data Size] [unknown]  reply_message <餐廳> 	回傳大小 : 21234
+2025-04-09 14:59:45,327 - INFO - [Data Time]  餐廳 : 4.581233900000029s
+2025-04-09 14:59:45,327 - INFO - [Data Size]  餐廳 : 21234
+2025-04-09 14:59:52,709 - INFO - [Data Size] [unknown]  reply_message <停車場> 	回傳大小 : 22462
+2025-04-09 14:59:52,949 - INFO - [Data Time]  停車場 : 4.926087300000006s
+2025-04-09 14:59:52,951 - INFO - [Data Size]  停車場 : 22462
+2025-04-09 15:00:02,446 - INFO - [Data Size] [unknown]  reply_message <住宿> 	回傳大小 : 10842
+2025-04-09 15:00:02,643 - INFO - [Data Time]  住宿 : 1.854159300000049s
+2025-04-09 15:00:02,643 - INFO - [Data Size]  住宿 : 10842
+2025-04-09 15:00:08,639 - INFO - [Data Size] [json_dict]  reply_message <租車> 	回傳大小 : 217
+2025-04-09 15:00:08,846 - INFO - [Data Time]  租車 : 0.20711959999999863s
+2025-04-09 15:00:08,847 - INFO - [Data Size]  租車 : 217
+2025-04-09 15:01:48,625 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-09 15:01:49,026 - INFO - [Data Time]  收集資料&修改資料 : 0.40192309999997633s
+2025-04-09 15:01:49,027 - INFO - [Data Size]  收集資料&修改資料 : 70
+2025-04-09 15:01:53,104 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-09 15:01:53,254 - INFO - [Data Time]  25 : 0.15054239999994934s
+2025-04-09 15:01:53,255 - INFO - [Data Size]  25 : 1229
+2025-04-09 15:01:54,557 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-09 15:01:54,704 - INFO - [Data Time]  其他 : 0.14847129999998288s
+2025-04-09 15:01:54,705 - INFO - [Data Size]  其他 : 993
+2025-04-09 15:01:57,669 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-09 15:01:57,835 - INFO - [Data Time]  location : Nones
+2025-04-09 15:01:57,836 - INFO - [Data Size]  location : 211

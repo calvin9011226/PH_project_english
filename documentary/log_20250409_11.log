@@ -1,0 +1,12 @@
+2025-04-09 11:57:26,053 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-09 11:57:26,218 - INFO - [Data Time]  收集資料&修改資料 : 0.1664999000000016s
+2025-04-09 11:57:26,219 - INFO - [Data Size]  收集資料&修改資料 : 70
+2025-04-09 11:57:30,469 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-09 11:57:30,655 - INFO - [Data Time]  24 : 0.1864024000000004s
+2025-04-09 11:57:30,656 - INFO - [Data Size]  24 : 1229
+2025-04-09 11:57:48,447 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-09 11:57:48,598 - INFO - [Data Time]  男 : 0.15213770000000082s
+2025-04-09 11:57:48,598 - INFO - [Data Size]  男 : 993
+2025-04-09 11:57:51,740 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-09 11:57:51,912 - INFO - [Data Time]  location : Nones
+2025-04-09 11:57:51,912 - INFO - [Data Size]  location : 211

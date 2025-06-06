@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\研究所\計畫\澎湖\澎湖專案\PH_PROJECT_V1\SPATIALINDEX-SRC-2.1.0\TEST\GTEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0 -BC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build --check-stamp-file C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/test/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

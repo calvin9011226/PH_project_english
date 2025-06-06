@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>澎湖人潮地圖</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      margin-top: 20px;
+    }
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h2>澎湖人潮地圖</h2>
+  <div id="map"></div>
+
+  <script>
+    const GOOGLE_API_KEY = "{{ google_api_key }}";
+    const planData = {{ plan_data | tojson | safe }};
+    console.log(planData[0]);
+    function initMap() {
+  const lat = parseFloat(planData[0].latitude);
+  const lng = parseFloat(planData[0].longitude);
+
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 12,
+    center: { lat: lat, lng: lng },
+  });
+
+  planData.forEach((point) => {
+    const lat = parseFloat(point.latitude);
+    const lng = parseFloat(point.longitude);
+    const name = point.setpoint || "未知地點";
+    const rank = point.crowd_rank || "medium";
+
+    const marker = new google.maps.Marker({
+      position: { lat, lng },
+      map: map,
+      title: name,
+      icon: getCrowdIcon(rank),
+    });
+
+    const infowindow = new google.maps.InfoWindow({
+      content: `<b>${name}</b><br>人潮等級: ${rank}`,
+    });
+
+    marker.addListener("click", () => {
+      infowindow.open(map, marker);
+    });
+  });
+}
+
+
+    function getCrowdIcon(rank) {
+    switch (rank) {
+        case "low":
+        return "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
+        case "medium":
+        return "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png";
+        case "high":
+        return "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
+        default:
+        return "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"; // default icon
+    }
+    }
+
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key={{ google_api_key }}&callback=initMap">
+  </script>
+</body>
+</html>

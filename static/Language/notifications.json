@@ -1,0 +1,120 @@
+{
+  "PlanningStarted": {
+    "zh": "已開始規劃，請稍等。",
+    "en": "Planning started, please wait."
+  },
+  "PushRouteOption": {
+    "zh": "請選擇您的路線規劃方式",
+    "en": "Please choose your route planning option."
+  },
+  "Choose Route": {
+    "zh": "請選擇您要的路線",
+    "en": "Please select your route"
+  },
+  "AskRouteOption_Intro": {
+    "zh": "以機器學習依據相關性，找尋過往數據最適合您的{option}行程",
+    "en": "Based on machine learning, we recommend the most suitable {option} itinerary for you."
+  },
+  "SystemRoute_Description": {
+    "zh": "【系統路線】依照人潮較少規劃\n1. 整段規劃：一次性顯示完整路線（紅線）。\n2. 分段規劃：逐段規劃，每段完成後按『下一步』顯示（藍線）。\n3. 清除系統路線：清除所有系統路線。",
+    "en": "[System Route] Plan based on lower crowd density.\n1. Full Route: Show entire route at once (red).\n2. Step-by-Step: Show route section by section after tapping 'Next' (blue).\n3. Clear: Remove all system-generated routes."
+  },
+  "UserRoute_Description": {
+    "zh": "【使用者路線】\n1. 點選標記內『加入路線』將景點加入清單。\n2. 一次性規劃：顯示使用者路線（綠線）。\n3. 分段規劃：逐段規劃，每段完成後按『下一步』顯示（橘線）。\n4. 清除：清除使用者路線。",
+    "en": "[User Route]\n1. Tap 'Add to Route' in marker to add spot to your list.\n2. Full Route: Show user-selected route at once (green).\n3. Step-by-Step: Show user route section by section after 'Next' (orange).\n4. Clear: Remove all user-selected routes."
+  },
+  "ML_Plan_Intro": {
+    "zh": "以使用機器學習依據相關性，找尋過往數據最適合您的{option}行程",
+    "en": "Using machine learning and historical relevance, we recommend the best {option} itinerary for you"
+  },
+  "ChooseItineraryDays": {
+    "zh": "請選擇您的行程規劃天數，將以大數據推薦行程",
+    "en": "Please choose your itinerary duration. A data-driven recommendation will be provided."
+  },
+  "Choose Travel Days":{
+    "zh": "請選擇您的行程規劃天數",
+    "en": "Please choose trip days"
+  },
+  "ConfirmYesNo": {
+    "zh": "請選擇是或否",
+    "en": "Please choose Yes or No"
+  },
+  "AskSustainableTourism": {
+    "zh": "您是否希望系統推薦永續觀光景點？",
+    "en": "Would you like the system to recommend sustainable tourism attractions?"
+  },
+  "TooCrowdedMessage": {
+    "zh": "\n\n{place} 的人潮太多，所以改推薦 {recommendation}",
+    "en": "\n\n{place} is too crowded, so we recommend {recommendation} instead"
+  },
+  "AIBasedRecommendation": {
+    "zh": "感謝等待\n系統以AI大數據機器學習的方式推薦以下適合您的地點\n\n{recommendation}",
+    "en": "Thank you for waiting.\nBased on AI and data analytics, we recommend the following locations:\n\n{recommendation}"
+  },
+  "ClickURLForCrowdAnalysis": {
+    "zh": "請點選以下網址，將由大數據為您分析這時間的人潮",
+    "en": "Please click the link below. Our system will analyze the crowd level at this time using big data."
+  },
+  "ClickURLForCarRental": {
+    "zh": "請點選以下網址，將為您推薦租車店家",
+    "en": "Please click the link below to see recommended car rental providers."
+  },
+  "GenderTitle": {
+    "zh": "性別類型",
+    "en": "Gender Type"
+  },
+  "GenderHint": {
+    "zh": "請輸入您的性別",
+    "en": "Please enter your gender"
+  },
+  "EnterYourAge": {
+    "zh": "請輸入你的年紀",
+    "en": "Please enter your age"
+  },
+  "DataSaved_SelectFunction": {
+    "zh": "資料儲存完畢\n請根據您的需求點選下方圖文選單,來獲得相對應的功能",
+    "en": "Data saved successfully.\nPlease use the menu below to access the features you need."
+  },
+  "CrowdedTop5Header": {
+    "zh": "目前人潮最壅擠的前五個景點：\n",
+    "en": "Top 5 most crowded spots right now:\n"
+  },
+  "CrowdedTop5Item": {
+    "zh": "{idx}. {place} - 人潮數量：{count}\n",
+    "en": "{idx}. {place} - Crowd count: {count}\n"
+  },
+  "RequireGenderAgeBeforeFeature": {
+    "zh": "要使用{feature}的功能之前，需要你的性別與年齡",
+    "en": "To use the {feature} feature, we need your gender and age first"
+  },
+  "Continue Search": {
+    "zh": "是否繼續查詢",
+    "en": "Do you want to continue?"
+  },
+  "Send Location": {
+    "zh": "傳送位置",
+    "en": "Send Location"
+  },
+  "Send Location Request": {
+    "en": "Please send your location", 
+    "zh": "請告訴系統您目前的位置" 
+  },
+  "Search Keyword": {
+    "zh": "請選擇搜尋的關鍵字",
+    "en": "Please choose a keyword"
+  },
+  "Price level":{
+    "zh": "價格等級:",
+    "en": "Price level:"
+  },
+  "Search Hotel Title": {
+    "zh": "您要在哪個景點搜尋民宿",
+    "en": "Where do you want to find a hotel?"    
+  },
+  "Choose Attractions": {
+    "zh": "選擇景點",
+    "en": "Where do you want to find a hotel?" 
+  }
+}
+
+

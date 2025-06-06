@@ -1,0 +1,103 @@
+{
+  "Sustainable Tourism": { 
+    "en": "Sustainable Tourism", 
+    "zh": "永續觀光" 
+  },
+  "General Attraction Recommendation": { 
+    "en": "General Attraction Recommendation", 
+    "zh": "一般景點推薦" 
+  },
+  "Attraction Recommendation": { 
+    "en": "Attraction Recommendation", 
+    "zh": "景點推薦" 
+  },
+  "Crowd Information": { 
+    "en": "Crowd Information", 
+    "zh": "景點人潮" 
+  },
+  "Nearby Search": { 
+    "en": "Nearby Search", 
+    "zh": "附近搜尋" 
+  },
+  "Restaurant": { 
+    "en": "Restaurant", 
+    "zh": "餐廳" 
+  },
+  "Scenic Area": { 
+    "en": "tourist attraction", 
+    "zh": "風景區" 
+  },
+  "Parking Lot": { 
+    "en": "Parking Lot", 
+    "zh": "停車場" 
+  },
+  "Accommodation": { 
+    "en": "Accommodation", 
+    "zh": "住宿" 
+  },
+  "Itinerary Planning": { 
+    "en": "Itinerary Planning", 
+    "zh": "行程規劃" 
+  },
+  "2 Days 1 Night": { 
+    "en": "2 Days 1 Night", 
+    "zh": "兩天一夜" 
+  },
+  "3 Days 2 Nights": { 
+    "en": "3 Days 2 Nights", 
+    "zh": "三天兩夜" 
+  },
+  "4 Days 3 Nights": { 
+    "en": "4 Days 3 Nights", 
+    "zh": "四天三夜" 
+  },
+  "5 Days 4 Nights": { 
+    "en": "5 Days 4 Nights", 
+    "zh": "五天四夜" 
+  },
+  "Data Collection": { 
+    "en": "Data Collection", 
+    "zh": "收集資料&修改資料" 
+  },
+  "Age": { 
+    "en": "Age", 
+    "zh": "年齡設定" 
+  },
+  "Gender choose": { 
+    "en": "Gender choose", 
+    "zh": "性別設定" 
+  },
+  "location": { 
+    "en": "location", 
+    "zh": "location" 
+  },
+  "Help": {
+    "en": "Need to help", 
+    "zh": "需要幫助"
+  },
+  "Man": { 
+    "en": "Man", 
+    "zh": "男" 
+  },
+  "Woman": { 
+    "en": "Woman", 
+    "zh": "女" 
+  },
+  "else": { 
+    "en": "else", 
+    "zh": "其他" 
+  },
+  "Car Rental Information": { 
+    "en": "Car Rental Information", 
+    "zh": "租車" 
+  },
+  "SystemRoutePlanning": { 
+    "en": "SystemRoutePlanning", 
+    "zh": "系統路線" 
+  },
+  "UserRoutePlanning": { 
+    "en": "UserRoutePlanning", 
+    "zh": "使用者路線" 
+  }
+}
+

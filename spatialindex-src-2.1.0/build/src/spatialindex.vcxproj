@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{73C76B66-420B-39D4-9867-CD3A49BBCA05}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>spatialindex</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spatialindex.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spatialindex-64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spatialindex.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spatialindex-64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spatialindex.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spatialindex-64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spatialindex.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spatialindex-64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR=\"Debug\";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/Debug/spatialindex-64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/bin/Debug/spatialindex-64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR=\"Release\";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/Release/spatialindex-64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/bin/Release/spatialindex-64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR=\"MinSizeRel\";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/MinSizeRel/spatialindex-64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/bin/MinSizeRel/spatialindex-64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIDX_DLL_EXPORT=1;HAVE_MEMSET=1;HAVE_MEMCPY=1;CMAKE_INTDIR=\"RelWithDebInfo\";</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/RelWithDebInfo/spatialindex-64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/bin/RelWithDebInfo/spatialindex-64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0 -BC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build --check-stamp-file C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0 -BC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build --check-stamp-file C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0 -BC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build --check-stamp-file C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0 -BC:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build --check-stamp-file C:/Users/User/Desktop/研究所/計畫/澎湖/澎湖專案/PH_project_v1/spatialindex-src-2.1.0/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Ball.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\LineSegment.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\MovingPoint.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\MVRTree.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Point.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Region.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\RTree.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\SpatialIndex.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TimePoint.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TimeRegion.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\TPRTree.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\Version.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\BoundsQuery.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\CountVisitor.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\CustomStorage.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\DataStream.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Error.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\IdVisitor.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Index.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\LeafQuery.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\ObjVisitor.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_api.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_config.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\sidx_impl.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\include\spatialindex\capi\Utility.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\BoundsQuery.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CountVisitor.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CustomStorage.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\DataStream.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Error.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\IdVisitor.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Index.cc">
+      <ObjectFileName>$(IntDir)/capi/Index.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\LeafQuery.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\ObjVisitor.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\sidx_api.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Utility.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Ball.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\LineSegment.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\MovingPoint.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\MovingRegion.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Point.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\Region.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\SpatialIndexImpl.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\TimePoint.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\spatialindex\TimeRegion.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Index.cc">
+      <ObjectFileName>$(IntDir)/mvrtree/Index.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Index.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Leaf.cc">
+      <ObjectFileName>$(IntDir)/mvrtree/Leaf.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Leaf.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\MVRTree.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\MVRTree.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Node.cc">
+      <ObjectFileName>$(IntDir)/mvrtree/Node.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Node.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\PointerPoolNode.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Statistics.cc">
+      <ObjectFileName>$(IntDir)/mvrtree/Statistics.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\mvrtree\Statistics.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\BulkLoader.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\BulkLoader.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Index.cc">
+      <ObjectFileName>$(IntDir)/rtree/Index.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Index.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Leaf.cc">
+      <ObjectFileName>$(IntDir)/rtree/Leaf.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Leaf.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Node.cc">
+      <ObjectFileName>$(IntDir)/rtree/Node.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Node.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\PointerPoolNode.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\RTree.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\RTree.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Statistics.cc">
+      <ObjectFileName>$(IntDir)/rtree/Statistics.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\rtree\Statistics.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\Buffer.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\DiskStorageManager.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\DiskStorageManager.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\MemoryStorageManager.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\MemoryStorageManager.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\RandomEvictionsBuffer.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\storagemanager\RandomEvictionsBuffer.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tools\rand48.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tools\Tools.cc" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Index.cc">
+      <ObjectFileName>$(IntDir)/tprtree/Index.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Index.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Leaf.cc">
+      <ObjectFileName>$(IntDir)/tprtree/Leaf.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Leaf.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Node.cc">
+      <ObjectFileName>$(IntDir)/tprtree/Node.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Node.h" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\PointerPoolNode.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Statistics.cc">
+      <ObjectFileName>$(IntDir)/tprtree/Statistics.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\Statistics.h" />
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\TPRTree.cc" />
+    <ClInclude Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\tprtree\TPRTree.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\build\ZERO_CHECK.vcxproj">
+      <Project>{E28D8D8B-6B24-347E-AC53-CA0343DE755E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

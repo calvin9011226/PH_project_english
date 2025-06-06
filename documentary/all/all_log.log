@@ -1,0 +1,16 @@
+﻿2025-06-07 01:26:58,157 - INFO - [Data Time]  Data Collection : 0.1405622s
+2025-06-07 01:26:58,157 - INFO - [Data Size]  Data Collection : 49
+2025-06-07 01:27:01,719 - INFO - [Data Time]  Age : 0.1776322s
+2025-06-07 01:27:01,719 - INFO - [Data Size]  Age : 1162
+2025-06-07 01:27:03,642 - INFO - [Data Time]  Woman : 0.1101691s
+2025-06-07 01:27:03,642 - INFO - [Data Size]  Woman : 893
+2025-06-07 01:27:06,110 - INFO - [Data Time]  location : 0.1525343s
+2025-06-07 01:27:06,110 - INFO - [Data Size]  location : 112
+2025-06-07 01:27:08,703 - INFO - [Data Time]  Itinerary Planning : 0.1553445s
+2025-06-07 01:27:08,703 - INFO - [Data Size]  Itinerary Planning : 1489
+2025-06-07 01:27:17,132 - INFO - [Data Time]  2 Days 1 Night : 5.9224830s
+2025-06-07 01:27:17,133 - INFO - [Data Size]  2 Days 1 Night : 1335
+2025-06-07 01:27:21,947 - INFO - [Data Time]  SystemRoutePlanning : 0.1976121s
+2025-06-07 01:27:21,947 - INFO - [Data Size]  SystemRoutePlanning : 122
+2025-06-07 01:27:38,215 - INFO - [Data Time]  UserRoutePlanning : 0.2061511s
+2025-06-07 01:27:38,216 - INFO - [Data Size]  UserRoutePlanning : 122

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <script>
+            const CROWD_POINTS  = {{ planData | tojson | safe }};
+            const T  = CROWD_POINTS.map(p => p.time);              // time
+            const LA = CROWD_POINTS.map(p => parseFloat(p.lat));   // longitude (Number)
+            const LO = CROWD_POINTS.map(p => parseFloat(p.lng));   // longitude (Number)
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title data-langkey="title_PengHu_crowd">Crowd Heatmap</title>
+        <style>
+            html,body {
+                height: 100%;
+                margin: 0
+            }
+
+            header,footer {
+                background: #333;
+                color: #fff;
+                text-align: center;
+                padding: 10px
+            }
+
+            #ctrl {
+                margin: 10px;
+                text-align: center
+            }
+
+            #map {
+                width: 100%;
+                height: calc(100% - 200px)
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 data-langkey="title_PengHu_crowd">當前人潮</h1>
+        </header>
+        <div id="ctrl">
+            <label>
+                <label for="langSelect" data-langkey="basis_language_label"></label>
+                <select id="langSelect">
+                    <option value="zh" selected>繁體中文</option>
+                    <option value="en">English</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                <span data-langkey="label_select_hour">選取小時（0–23）：</span>
+                    <input id="hourR" type="range" min="0" max="23" value="0">
+                <span id="hTxt">0:00</span>
+            </label>
+        </div>
+        <div id="map"></div>
+        <footer>
+            <p>© PSRS.</p>
+        </footer>
+        <script src="{{ url_for('static', filename='Language_loader.js') }}"></script>
+        <script>
+            function loadGoogleMapScript() {
+            return new Promise((resolve) => {
+                const script = document.createElement("script");
+                let language=window.currentLang;
+                if (language=="zh")
+                    language="zh-TW"
+                script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCvDawNTJuNDlQXDiBYZmDsos9e8qaJz68&libraries=visualization&language=${language}&callback=initMap`;
+                script.async = true;
+                script.defer = true;
+                window._mapInitCallback = resolve;  // 暫存 promise resolve
+                document.head.appendChild(script);
+            });
+            }
+        </script>
+
+        <script>
+            const GLOBAL_MAX = 12;
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get("lang") || "zh";
+            window.currentLang = lang;  
+            /* ===== Tool: String Splitting and Timing ===== */
+            function getHour(str) {
+                const p = str.trim().split(/\s+/);
+                if (p.length < 3)
+                    return null;
+                let h = parseInt(p[1].split(':')[0], 10);
+                const ap = p[2].toUpperCase();
+                if (ap === 'PM' && h !== 12)
+                    h += 12;
+                if (ap === 'AM' && h === 12)
+                    h = 0;
+                return h;
+            }
+
+            /* ===== Google Map + Heatmap ===== */
+            let map, heatLayer;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'),{
+                    center: {
+                        lat: 23.57226,
+                        lng: 119.57102
+                    },
+                    zoom: 15,
+                    mapId: "5cb7f499bf3d65"
+                });
+                heatLayer = new google.maps.visualization.HeatmapLayer({
+                    map,
+                    radius: 20,
+                    gradient: ['rgba(0,0,255,0)', 'rgba(0,255,255,0.6)', 'rgba(0,255,0,0.8)', 'rgba(255,255,0,0.9)', 'rgba(255,0,0,1)']
+                });
+                updateHeat();
+            }
+
+            /* ===== 更新熱度圖 ===== */
+            function updateHeat() {
+                try {
+                    const hr = +document.getElementById('hourR').value;
+                    document.getElementById('hTxt').textContent = hr + ":00";
+
+                    // 如果資料長度不一致，避免程式出錯
+                    if (!T || !LA || !LO || T.length !== LA.length || T.length !== LO.length) {
+                        console.warn("資料長度不一致，無法繪製熱度圖");
+                        return;
+                    }
+
+                    const counts = {};
+                    for (let i = 0; i < T.length; i++) {
+                        if (getHour(T[i]) === hr) {
+                            const key = (+LA[i]).toFixed(6) + ',' + (+LO[i]).toFixed(6);
+                            counts[key] = (counts[key] || 0) + 1;
+                        }
+                    }
+
+                    const weighted = [];
+                    for (const k in counts) {
+                        const [lat, lng] = k.split(',').map(Number);
+                        weighted.push({
+                            location: new google.maps.LatLng(lat, lng),
+                            weight: counts[k]
+                        });
+                    }
+
+                    heatLayer.set('maxIntensity', GLOBAL_MAX);
+                    heatLayer.setData(weighted);
+
+                } catch (e) {
+                    console.error("更新熱圖時出錯：", e);
+                }
+            }
+
+
+            document.addEventListener('DOMContentLoaded', () => {
+                loadGoogleMapScript().then(() => {
+                    initMap();  // 會自動 call updateHeat
+                });
+
+                // ✅ 語言切換只保留這一行
+                document.getElementById('langSelect').addEventListener('change', e => {
+                    const u = new URL(location.href);
+                    u.searchParams.set('lang', e.target.value);
+                    location.href = u;
+                });
+
+                // ✅ 滑動條事件監聽
+                document.getElementById('hourR').addEventListener('input', updateHeat);
+                });
+
+        </script>
+        
+    </body>
+</html>

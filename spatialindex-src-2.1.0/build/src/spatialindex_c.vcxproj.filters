@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\BoundsQuery.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CountVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\CustomStorage.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\DataStream.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Error.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\IdVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Index.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\LeafQuery.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\ObjVisitor.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\sidx_api.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\capi\Utility.cc">
+      <Filter>C API Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\研究所\計畫\澎湖\澎湖專案\PH_project_v1\spatialindex-src-2.1.0\src\CMakeLists.txt">
+      <Filter>CMake Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="C API Source Files">
+      <UniqueIdentifier>{2E0920D0-6CE0-342A-B46C-D71593FEEBF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Files">
+      <UniqueIdentifier>{E1F84697-E0E2-3ADC-A86E-2C12F0CEED56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿2025-06-07 01:27:12,428 - INFO - [Data Time]  2 Days 1 Night-Machine Learning : 1.2134674s
+2025-06-07 01:27:12,428 - INFO - [Data Size]  2 Days 1 Night-Machine Learning : 1867
+2025-06-07 01:27:12,443 - INFO - [Data Time]  2 Days 1 Night-Attraction Filtering : 0.0150044s
+2025-06-07 01:27:12,444 - INFO - [Data Size]  2 Days 1 Night-Attraction Filtering : 751
+2025-06-07 01:27:16,883 - INFO - [Data Time]  2 Days 1 Night-Attraction Ranking : 4.4403917s
+2025-06-07 01:27:16,884 - INFO - [Data Size]  2 Days 1 Night-Attraction Ranking : 0
+2025-06-07 01:27:16,932 - INFO - [Data Time]  2 Days 1 Night-Data to Database : 0.0472260s
+2025-06-07 01:27:16,932 - INFO - [Data Size]  2 Days 1 Night-Data to Database : 0

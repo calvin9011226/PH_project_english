@@ -1,0 +1,42 @@
+{
+  "error":{
+    "zh": "!!! 發生錯誤 !!!",
+    "en": "!!! ERROR !!!"
+  },
+  "LocationNotFound": {
+    "zh": "無法取得您的位置，請重新傳送位置資訊。",
+    "en": "Unable to get your location. Please send it again."
+  },
+  "PlanLoadFailed": {
+    "zh": "行程資料讀取失敗，請稍後再試。",
+    "en": "Failed to load itinerary data. Please try again later."
+  },
+  "PlanRecommendFailed": {
+    "zh": "行程推薦失敗，請稍後再試。",
+    "en": "Failed to itinerary recommendation. Please try again later."
+  },
+  "PlanProcessFailed": {
+    "zh": "行程資料處理失敗，請稍後再試。",
+    "en": "Failed to Process itinerary data. Please try again later."
+  },
+  "NearbySearchFailed": {
+    "zh": "附近搜尋失敗，請稍後再試。",
+    "en": "Failed to Nearby Search. Please try again later."
+  },
+  "EnterValidAge": {
+    "zh": "請輸入\"正確年紀\"",
+    "en": "Please enter a valid age"
+  },
+  "LocationSaveFailed": {
+    "zh": "位置資料儲存錯誤，請稍後再試",
+    "en": "Failed to save location data. Please try again later."
+  },
+  "NoCrowdData": {
+    "zh": "目前無法取得當前時段的人潮資料。",
+    "en": "Crowd data is currently unavailable for this time period."
+  },
+  "DataFetchFailed": {
+    "zh": "資料取得失敗，請稍後再試。",
+    "en": "Failed to retrieve data. Please try again later."
+  }
+}

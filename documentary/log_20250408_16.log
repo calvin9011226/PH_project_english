@@ -1,0 +1,27 @@
+2025-04-08 16:24:15,469 - INFO - [Data Size] [unknown]  reply_message <收集資料&修改資料> 	回傳大小 : 70
+2025-04-08 16:24:15,600 - INFO - [Data Time]  收集資料&修改資料 : 0.13020819999999844ms
+2025-04-08 16:24:15,600 - INFO - [Data Size]  收集資料&修改資料 : 70
+2025-04-08 16:24:18,841 - INFO - [Data Size] [unknown]  reply_message <年齡設定> 	回傳大小 : 1229
+2025-04-08 16:24:19,000 - INFO - [Data Time]  24 : 0.15984450000000017ms
+2025-04-08 16:24:19,000 - INFO - [Data Size]  24 : 1229
+2025-04-08 16:24:20,884 - INFO - [Data Size] [json_dict]  reply_message <性別設定> 	回傳大小 : 993
+2025-04-08 16:24:21,038 - INFO - [Data Time]  女 : 0.1563908999999999ms
+2025-04-08 16:24:21,038 - INFO - [Data Size]  女 : 993
+2025-04-08 16:24:24,187 - INFO - [Data Size] [unknown]  reply_message <寫入location> 	回傳大小 : 211
+2025-04-08 16:24:24,340 - INFO - [Data Time]  location : Nonems
+2025-04-08 16:24:24,340 - INFO - [Data Size]  location : 211
+2025-04-08 16:24:32,427 - INFO - [Data Size] [json_dict]  reply_message <行程規劃> 	回傳大小 : 1690
+2025-04-08 16:24:32,599 - INFO - [Data Time]  行程規劃 : 0.17278870000000168ms
+2025-04-08 16:24:32,599 - INFO - [Data Size]  行程規劃 : 3
+2025-04-08 16:24:41,221 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-08 16:24:41,394 - INFO - [Data Time]  兩天一夜 : 7.183895899999996ms
+2025-04-08 16:24:41,394 - INFO - [Data Size]  兩天一夜 : 2014
+2025-04-08 16:24:58,439 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-08 16:24:58,769 - INFO - [Data Time]  三天兩夜 : 12.8263301ms
+2025-04-08 16:24:58,770 - INFO - [Data Size]  三天兩夜 : 2014
+2025-04-08 16:25:07,402 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-08 16:25:07,599 - INFO - [Data Time]  四天三夜 : 6.574347699999997ms
+2025-04-08 16:25:07,600 - INFO - [Data Size]  四天三夜 : 2014
+2025-04-08 16:25:17,233 - INFO - [Data Size] [2014]  push_message  <路線選項說明> 	回傳大小 : json_dict
+2025-04-08 16:25:17,427 - INFO - [Data Time]  五天四夜 : 7.647813999999997ms
+2025-04-08 16:25:17,428 - INFO - [Data Size]  五天四夜 : 2014
